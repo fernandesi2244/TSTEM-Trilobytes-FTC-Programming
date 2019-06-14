@@ -56,8 +56,8 @@ import static com.qualcomm.robotcore.hardware.DcMotor.ZeroPowerBehavior.FLOAT;
  * It then proceeds to complete the rest of the autonomous routine.
  * To be used on LEFT side of lander for ROVER RUCKUS game.
  */
-@Autonomous(name = "Left Auto", group = "Concept")
-public class TensorFlowTest extends LinearOpMode {
+@Autonomous(name = "Official Auto with Tensorflow", group = "Concept")
+public class OfficialAutonomousWithTensorflow extends LinearOpMode {
     //variable for how well Tensorflow needs to detect the object to detect it right
     private static Double confidence;
     //other variables for Tensorflow obect detection
